@@ -43,3 +43,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         skopeo copy --all docker://docker.io/idootop/mi-gpt-tts:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/mi-gpt-tts:latest
+        skopeo copy --all docker://docker.io/idootop/mi-gpt:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/mi-gpt:latest
