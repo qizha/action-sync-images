@@ -42,4 +42,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to SWR
       run: |
         #!/usr/bin/env bash
-        skopeo copy --all docker://docker.io/idootop/mi-gpt-tts:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/mi-gpt-tts:latest
+        skopeo copy --sbom=false --provenance=false --all docker://docker.io/idootop/mi-gpt-tts:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/mi-gpt-tts:latest
