@@ -44,3 +44,5 @@ jobs:
         #!/usr/bin/env bash
         skopeo copy --all docker://docker.io/idootop/mi-gpt-tts:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/mi-gpt-tts:latest
         skopeo copy --all docker://docker.io/idootop/mi-gpt:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/mi-gpt:latest
+        skopeo copy --all docker://docker.io/consul:1.15.4 docker://swr.cn-north-4.myhuaweicloud.com/todayhill/consul:1.15.4
+        skopeo copy --all docker://docker.io/nacos/nacos-server:latest docker://swr.cn-north-4.myhuaweicloud.com/todayhill/nacos-server:latest
